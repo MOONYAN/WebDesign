@@ -1,0 +1,161 @@
+body
+{
+  height: 1653px;
+  width: 1280px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background-color: #0070C0;
+  height: 10rem;
+}
+
+#logo
+{
+  float: left;
+  box-sizing: border-box;
+  margin:  2rem 3rem;
+}
+
+#nav
+{
+  float:right;
+  box-sizing: border-box;
+  margin:  3rem 0rem;
+}
+
+#nav ul li
+{
+  float: left;;
+  margin-right:2rem ;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 2rem;
+}
+
+#nav ul li :hover
+{
+  background-color:#D2E6FF;
+  border-radius: 0.5rem;
+  color: #0070C0;
+  border: 0.1px dashed #000000;
+}
+
+#nav ul li a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#main-area
+{
+  background-color: #D2E6FF;
+  height: 87.1875rem;
+  box-sizing: border-box;
+  padding: 2.5rem 4.25rem;
+  margin: 0 3rem;
+  border: 0;
+  display: block;
+}
+
+#main-photo
+{
+  padding: 3rem 0;
+  background-color: #8CC8FF;
+  text-align : center;
+}
+
+#main-photo img
+{
+  height: 28rem;
+  width: 61rem;
+}
+
+#gallery-area
+{
+  margin: 2.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*border: 1px solid #000000;*/
+}
+#gallery-area img
+{
+  margin: 2rem;
+  height: 14.5rem;
+  width: 17rem;
+}
+
+#gallery-area img:hover
+{
+  background-color: #8CC8FF;
+}
+
+#algorithm-area
+{
+  /*background-color: black;*/
+  height: 23rem;
+}
+
+#algorithm-area div
+{
+  float: left;
+}
+
+#algorithm-photo img
+{
+  height: 23rem;
+  width: 31rem;
+}
+
+#algorithm-content
+{
+  box-sizing: border-box;
+  padding: 4.875rem;
+  font-size: 2rem;
+  border: 1px solid #000000;
+  margin-left: 5rem;
+  font-family: Arial;
+}
+
+#algorithm-content ul li
+{
+  list-style-type: none;
+  margin: 3rem 0;
+}
+
+footer
+{
+  display: block;
+  background-color: #8CC8FF;
+  height: 5.5rem;
+}
+
+#footer-left
+{
+  margin: 1.5rem 3rem;
+  float: left;
+}
+
+#footer-right
+{
+  /*margin: 1rem 3rem;*/
+  float: right;
+}
+
+#footer-right ul li
+{
+  float: left;
+  margin-right: 3rem;
+  display: inline-block;
+  font-family: Arial;
+}
+
+.clear
+{
+  content: "";
+  display: block;
+  clear: both;
+}
