@@ -1,0 +1,51 @@
+img
+{
+  display: block;
+  width: 100%;
+  height:auto;
+}
+
+.main-area
+{
+  background-color: #D2E6FF;
+}
+
+.navbar-inverse
+{
+  background-color: #0070C0;
+}
+
+.jumbotron
+{
+  background-color: #8CC8FF;
+}
+
+.navbar-brand
+{
+  padding: 0;
+}
+
+#brand-imge
+{
+  height:100%;
+  width: auto;
+}
+
+#navbar-collapse-menu ul li
+{
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+#algorithm-content li
+{
+  font-size: 2.5em;
+  padding:  2em 0.5em;
+}
+
+footer {
+  background: #8CC8FF;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
